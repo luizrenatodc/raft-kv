@@ -1,0 +1,9 @@
+{
+  "name": "raft-kv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Banco chave-valor replicado com Raft, simulação determinística e verificação de linearizabilidade",
+  "scripts": { "test": "node --test test/*.test.ts" },
+  "engines": { "node": ">=24" }
+}
